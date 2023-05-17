@@ -1,0 +1,97 @@
+html {
+/*   background: url("../imgs/background.jpg"); */
+/*   background-color: #acdbff; */
+  background-color: white;
+  position: relative;
+  width: 100%;
+  max-width: 1600px;
+  margin: 0 auto;
+  padding: 0 10px;
+  box-sizing: border-box;
+  font-size: 62.5%; /* colocar 62.5% caso queira deixar font-size 1.4 = 14pt */ 
+}
+
+body {
+  font-size: 1.48em;
+  font-family: Helvetica, Arial, Arial, sans-serif, serif;
+  line-height: 1.4;
+  font-weight: 400;
+  color: #222;
+}
+
+h1 { 
+  font-size: 160%;
+  line-height: 1;  
+  letter-spacing: -.02em;
+}
+
+h2 {
+  font-size: 100%;
+  margin-bottom: -1em;
+  font-weight: bold;
+  color: #660000;
+}
+
+a {
+  color: #000080;
+  text-decoration: underline;
+}
+
+a:hover {
+  color: #444;
+}
+
+a.menu {
+  color: #222;
+  text-decoration: underline;
+}
+
+a.pubs {
+/*   font-weight: bold; */
+  text-decoration: none;
+  color: green;
+}
+
+a.pubs:hover {
+  text-decoration: underline;
+}
+
+img { 
+  max-width: 100%; 
+  height: auto;
+}
+
+ul.with-bullets {
+  list-style-type: disc;
+}
+
+ul.without-bullets {
+  list-style-type: none;
+  padding-left:0;
+}
+
+ol {
+ margin:.4em 0em -.8em 0;   
+}
+
+li.space {
+  margin: 0;
+  padding: 0 0 .8em 0;
+}
+
+hr {
+  border-top: 2px solid #222;
+}
+
+/*@media (max-width: 1400px) {
+  html {
+    font-size: 80%;
+    max-width: 1200px;
+}
+}*/
+
+/*@media (max-width: 550px) {
+  h1 {
+    font-size: 120%;
+}
+}*/
